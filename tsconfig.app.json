@@ -4,9 +4,13 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
+    "rootDir": "./src",
     "types": [
       "node"
     ]
+  },
+  "angularCompilerOptions": {
+    "strictTemplates": true
   },
   "include": [
     "src/**/*.ts"

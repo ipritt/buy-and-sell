@@ -1,0 +1,17 @@
+@if(listing(); as currentListing){
+    <div class="content-box">
+        <h2>Edit Listing</h2>
+        <app-listing-data-form 
+            buttonText="Save Changes"
+            [currentName]="currentListing.name" 
+            [currentDescription]="currentListing.description"
+            [currentPrice]="currentListing.price.toString()"
+            (onSubmit)="onSubmit($event)">
+        </app-listing-data-form>
+    </div>
+}
+@else {
+    <div class="content-box">
+        <h3>Loading...</h3>
+    </div>
+}
