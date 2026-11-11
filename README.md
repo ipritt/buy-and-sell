@@ -1,4 +1,5 @@
 # BuyAndSell
+This is based on a LinkedIn Learn tutorial. Calls NodeJS backend using hapi server and Firebase authentication which calls a MySql DB and is hosted on Google Cloud at https://buy-and-sell-1e31d.ue.r.appspot.com.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.4.
 
